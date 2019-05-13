@@ -1,6 +1,6 @@
 ##  SIMPLE WEB CALCULATOR
 
-Simple web calculator that does the basics operations:
+Simple web calculator that does the following basics operations:
   
 - Addition
   
