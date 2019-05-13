@@ -1,0 +1,112 @@
+/* importing fonts */
+@font-face {
+    font-family: "Orbitron";
+    src: url("../font/Orbitron-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../font/Montserrat-Regular.ttf") format('truetype');
+}
+
+* {
+    /*standart font of my website*/
+    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(184, 194, 181);
+    color: black;
+}
+
+/* where the calculator is*/
+#calculator {
+    background-color: white;
+    margin: 40px auto;
+    /*290*/
+    width: 360px;
+    height: 444px;
+    border-radius: 10px;
+    border: 10px solid rgb(155, 155, 155);
+    box-shadow: 8px 9px 6px 2px rgb(92, 92, 92);
+}
+
+/* styling H1*/
+#calculator p {
+    font-size: 26px;
+    text-align: center;
+    color: black;
+}
+
+/* Styling form */
+#calculator form #screen, button{
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* styling screen*/
+#calculator form #screen {
+    color: black;
+    margin: -8px 2px 20px 2px;
+    padding: 20px 10px;
+    width: 90%;
+    border: 2px solid rgb(131, 131, 131);
+    border-radius: 5px;
+    cursor: default;
+    text-align: right;
+    font-size: 25px;
+    transition: 0.4s;
+}
+
+#calculator form #screen:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+/* styling button*/
+#calculator form button{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(184, 184, 184);
+    width: 60px;
+    height: 50px;
+    margin: 2px 2px 1px 6px;
+    transition: 0.9s;
+    font-size: 15px;
+}
+
+#calculator form button:hover {
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+#calculator form #zero {
+    width: 132px;
+}
+
+#calculator form #result {
+    position: absolute;
+    box-sizing: border-box;
+    margin: -50px 0 0 11px;
+    background-color: rgb(255, 177, 32);
+    height: 100px;
+}
+
+#calculator form #result:hover {
+    background-color: rgb(185, 99, 0);
+}
+
+#calculator form #clear, #calculator form #clearEntry {
+    background-color: rgb(218, 51, 0);
+    font-weight: bold;
+}
+
+#calculator form #clear:hover, #calculator form #clearEntry:hover {
+    background-color: rgb(150, 47, 0);
+}
+
+/* styling footer */
+footer p {
+    text-align: center;
+    text-transform: uppercase;
+}
