@@ -34,5 +34,5 @@ Simple web calculator that does the following basics operations:
 ## INTERFACE
    
 <p align="center">
-    <img src="hhttps://drive.google.com/file/d/16GvVBTPazLBqjFJXsk-_6dIprppOVJfr/view" width="600" height="450""/>
+    <img src="https://drive.google.com/uc?export=view&id=16GvVBTPazLBqjFJXsk-_6dIprppOVJfr"/>
    </p>
