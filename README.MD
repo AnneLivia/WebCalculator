@@ -12,7 +12,7 @@ Simple web calculator that does the following basics operations:
   
 - Square Root
   
-- Exponentiation (X²)
+- Exponentiation (XÂ²)
   
 - Fatorial
 
@@ -34,5 +34,5 @@ Simple web calculator that does the following basics operations:
 ## INTERFACE
    
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1zoaPdqztasJzR7hqVFMdlxkanc1w-0b6" width="600" height="450""/>
+    <img src="https://drive.google.com/file/d/16GvVBTPazLBqjFJXsk-_6dIprppOVJfr/view?usp=sharing" width="600" height="450""/>
    </p>
